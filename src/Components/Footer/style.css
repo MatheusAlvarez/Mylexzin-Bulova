@@ -1,0 +1,13 @@
+.container-footer{
+    background-color: #23232e;
+    color: #fff;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container-footer h2{
+    font-size: 15px;
+}
+

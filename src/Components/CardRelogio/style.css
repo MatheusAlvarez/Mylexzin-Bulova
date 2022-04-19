@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "My-Font";
+    src: url("../../font/Font.ttf")
+  }
+
+.logo-card{
+    font-family: My-Font;
+    margin-top: 25px;
+}
+ 
+ /* Destaques */
+ .destaques{
+    display: inline-block;
+    margin: 20px 0px;
+}
+/* Fim Destaques */
+
+/* Animação Destaques */
+/* Logo Mylexzin no flip-beck */
+.logo-flip{
+    width: 200px;
+    height: 100px;
+    margin: 5px;
+    }
+
+.flip-card {
+    background-color: transparent;
+    width: 250px;
+    height: 250px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; 
+}
+
+/* Este container é necessário para posicionar a parte frontal e traseira */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Inversão horizontal ao mover o mouse sobre o container da caixa articulada */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+/*Posicição a frente e o verso */
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+}
+
+/* Style a parte da frente (substituto se a imagem estiver faltando)*/
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+/* Style a parte de trás*/
+.flip-card-back {
+    background-color: #23232e;
+    color: white;
+    transform: rotateY(180deg);
+}
+/* Fim Animações Destaques */
+
+    .tmn-relogio{
+        width: 250px;
+        height: 250px;
+    }
+
+@media (max-width: 575px) {
+    .container-margin{
+        display: flex;
+        justify-content: center;
+    }
+}

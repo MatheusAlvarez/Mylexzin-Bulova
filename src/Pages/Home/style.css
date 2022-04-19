@@ -1,0 +1,13 @@
+.background-video{
+    background-color: #000;
+}
+
+.video{
+    width: 70%;
+}
+
+@media (max-width: 575px) {
+    .video{
+        width: 100%;
+    }
+}

@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "My-Font";
+    src: url("../../font/Font.ttf")
+  }
+
+.background-color{
+    background-color: #23232e !important;   
+}
+
+.logo{
+    font-size: 35px;
+    font-family: My-Font !important;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.menu-navegation{
+    color: #fff !important;
+    font-size: 17px !important;
+    cursor: pointer !important;
+}
+
+.margin-navegation:hover{
+    color: #b1b1b1 !important;
+}
+
+.background-color p{
+    margin-left: 25px !important;
+}
